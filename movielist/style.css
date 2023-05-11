@@ -1,0 +1,30 @@
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* .card {
+  width: 12rem;
+  height: 22rem;
+} */
+
+.btn-show-user:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.btn-add-favorite:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-title:hover {
+  white-space: normal;
+  overflow: visible;
+}
